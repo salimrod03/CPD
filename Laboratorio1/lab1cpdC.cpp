@@ -7,9 +7,9 @@ using namespace chrono;
 
 int main() {
     int N, BS;
-    cout << "Ingrese el tamaño de la matriz: ";
+    cout << "Ingrese el tamaÃ±o de la matriz: ";
     cin >> N;
-    cout << "Ingrese el tamaño de bloque: ";
+    cout << "Ingrese el tamaÃ±o de bloque: ";
     cin >> BS;
     vector<double> A(N * N, 1.0);
     vector<double> B(N * N, 1.0);
