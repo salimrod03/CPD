@@ -1,0 +1,37 @@
+lista mutex unico con 1 : 1.85 aprx
+lista mutex unico con 2 : 2.82 aprx
+lista mutex unico con 4 : 4.23 aprx
+lista mutex unico con 8 : 5.96 aprx
+
+lista mutex por nodo con 1 : 1.84 
+lista mutex por nodo con 2 : 2.36 
+lista mutex por nodo con 4 : 3.77 
+lista mutex por nodo con 8 : 5.10 
+
+lista rwlock con 1 : 1.86 aprx
+lista rwlock con 2 : 2.23 aprx
+lista rwlock con 4 : 3.86 aprx
+lista rwlock con 8 : 4.89 aprx
+
+matriz vector con 1024 con 1 hilo: 0.104
+matriz vector con 1024 con 2 hilo: 0.005
+matriz vector con 1024 con 4 hilo: 0.003
+
+matriz vector con 8000 con 1 hilo: 0.314
+matriz vector con 8000 con 2 hilo: 0.162
+matriz vector con 8000 con 4 hilo: 0.086
+
+seguridad en hilos con 1 hilo: 
+sin seguridad : 0.040
+con mutex: 0.245
+con variable atómica: 0.096
+
+seguridad en hilos con 2 hilo: 
+sin seguridad : 0.113
+con mutex: 0.658
+con variable atómica: 0.168
+
+seguridad en hilos con 4 hilo: 
+sin seguridad : 0.130
+con mutex: 0.700
+con variable atómica: 0.172
